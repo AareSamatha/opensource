@@ -1,0 +1,7 @@
+Vignesh,charan=input().split()
+if((Vignesh=="R" and charan=="S")or (Vignesh=="S" and charan=="P") or (Vignesh=="P" and charan=="R")):
+    print("Vignesh")
+elif(Vignesh==charan):
+    print("NULL")
+else:
+    print("Charan")
