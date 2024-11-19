@@ -1,0 +1,9 @@
+n=int(input())
+arr=list(map(int,input().split()))
+m=int(input())
+arr1=list(map(int,input().split()))
+result=[]
+for i in set(arr1):
+    if arr.count(i)!=arr1.count(i):
+        result.append(i)
+print(*sorted(result))
