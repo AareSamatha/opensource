@@ -1,0 +1,8 @@
+N=int(input())
+arr=list(map(int,input().split()))
+curr_alti=0
+max_alti=0
+for i in arr:
+    curr_alti+=i
+    max_alti=max(curr_alti,max_alti)
+print(max_alti)
